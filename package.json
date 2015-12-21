@@ -1,6 +1,6 @@
 {
   "name": "ng-once",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds $rootScope functionality to handle an event only once",
   "main": "ngOnce.js",
   "scripts": {
@@ -24,6 +24,9 @@
     "url": "https://github.com/nsand/ng-once/issues"
   },
   "homepage": "https://github.com/nsand/ng-once#readme",
+	"files": [
+		"ngOnce.js"
+	],
   "dependencies": {
     "angular": "^1.2.0"
   },
