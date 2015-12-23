@@ -1,0 +1,35 @@
+{
+  "name": "ng-once",
+  "description": "Adds $rootScope functionality to handle an event only once",
+  "main": "ngOnce.min.js",
+  "version": "0.1.4",
+  "dependencies": {
+    "angular": "^1.2.0"
+  },
+  "authors": [
+    "Nick Sandonato"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "once",
+    "event",
+    "on",
+    "scope",
+    "rootScope"
+  ],
+  "homepage": "https://github.com/nsand/ng-once",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "ngOnce.spec.js"
+  ]
+}
