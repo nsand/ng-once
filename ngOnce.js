@@ -29,6 +29,7 @@
 					deregistration();
 					cb.apply(null, arguments);
 				});
+				return deregistration;
 			};
 
 			return $delegate;

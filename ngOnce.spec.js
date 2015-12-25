@@ -49,4 +49,9 @@ describe('ng-once', function () {
 		expect($event).to.equal('ngOnce.sound');
 		expect($sound).to.equal('boop');
 	});
+
+	it('should return the deregistration function', function () {
+		var deregistration = $rootScope.$once('ngOnce.sound', function () {});
+		expect(deregistration).to.be.a('function');
+	});
 });
