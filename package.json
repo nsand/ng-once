@@ -32,9 +32,12 @@
     "ngOnce.js"
   ],
   "dependencies": {
+  },
+  "peerDependencies": {
     "angular": "^1.2.0"
   },
   "devDependencies": {
+    "angular": "^1.2.0",
     "angular-mocks": "^1.4.8",
     "chai": "^3.4.1",
     "karma": "^0.13.15",
